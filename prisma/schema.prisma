@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model kanjidict {
+  kanji     String
+  onyomi    String
+  kunyomi   String
+  strokes   Int
+  grade     String
+  jlpt      String
+  frequency Int?
+  meaning   String
+  id        Int    @id @default(autoincrement())
+}
