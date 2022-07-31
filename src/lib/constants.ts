@@ -1,3 +1,10 @@
+export const MIN_ROUNDS = 5;
+export const MAX_ROUNDS = 20;
+export const MIN_TIMER = 1;
+export const MAX_TIMER = 10;
+export const MIN_DIFFICULTY = 1;
+export const MAX_DIFFICULTY = 5;
+
 // This array maps the indices 0-18 to the corresponding grade description in the database.
 export const dbGrades = [
   'Kyōiku-Jōyō (1st grade of primary school)',

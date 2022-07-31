@@ -1,8 +1,10 @@
 # kanji-quiz
 
-WORK IN PROGRESS.
+A simple quiz that temporarily reveals a random kanji character.
 
-Powered by Sveltekit, TailwindCSS + daisyUI, TypeScript, and Prisma
+Customizable by difficulty metric, number of rounds, seconds of visibility, and difficulty level.
+
+Powered by SvelteKit, TailwindCSS, daisyUI, and Prisma.
 
 ## Setup development server:
 - Clone this repository
